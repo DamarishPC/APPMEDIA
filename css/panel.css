@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    background-color: rgb(211, 231, 233);
+    height: 100px;
+}
+.navegador{
+    display: flex;
+    align-items: center;
+}
+.navegador>img{
+    width: 200px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.titulos{
+    text-align: center;
+    margin-left: 90px;
+}
+.titulos>h1{
+    color: rgb(146, 64, 64);
+}
+.titulos>h2{
+    color: rgb(160, 117, 52);
+    font-size: 18px;
+}
+.cuerpo{
+    display: flex;
+    align-items: center;
+}
+.data>img{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.cerrar-btn {
+    width: 170px; 
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #48b1f7;
+    margin-left: 50px;
+}
+
+.cerrar-btn::placeholder {
+    color: #f7f5f5; 
+    text-align: center;
+}
+.inicio-btn{
+    width: 80px; 
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #c6c8c9;
+}
+.inicio-btn::placeholder {
+    color: #666161; 
+}
+.regis-btn{
+    width: 400px; 
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #ecf0f3;
+}
+.regis-btn::placeholder {
+    color: #666161; 
+}
+.control>h1{
+    color: #666161;
+}
+.editar{
+    background-color: rgb(211, 231, 233);
+}
+.editar>h3{
+    margin-left: 20px;
+    color: #666161;
+}
+.editar>img{
+    margin-left: 20px;
+}
+.editar>a{
+    text-decoration: none;
+    margin-left: 80px;
+    color: #157ec4;
+    font-size: 20px;
+}
